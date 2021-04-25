@@ -1,0 +1,140 @@
+html, body {
+    margin: 0 ;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body, input, button {
+    font-size: 16px;
+    color: #222;
+}
+
+a{
+    list-style: none;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}  
+
+#navbar a {
+    margin-right: 20px; 
+    color: black;
+}
+
+#navbar .dot {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+#navbar .bs {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+}
+
+#Gmail, #Images {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#main {
+    margin-top: 150px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo {
+    text-align: center;
+}
+
+#search-bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#search {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    outline: 0;
+    border-radius: 15px;
+    border: 2px solid #eeeeee;
+
+}
+
+#buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 5px;
+    cursor: pointer;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #f8f9fa;
+}
+
+
+#region {
+    display: flex;
+    justify-self: start;
+    padding: 0px 10px;
+    width: 100%;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dadce0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color:#f8f9fa;
+    justify-content: space-evenly;
+}
+
+#footer-right {
+    align-items: center;
+    justify-content: flex-end;    
+    margin-right: 20px;    
+    justify-content: space-evenly;
+}
+
+#footer-left {
+    align-items: center;
+    justify-self: start;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+footer > nav > ul > a {
+    margin-left: 10px;
+    color: #222;
+    
+}
